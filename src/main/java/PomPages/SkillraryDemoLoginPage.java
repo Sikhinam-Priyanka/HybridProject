@@ -8,7 +8,7 @@ import org.openqa.selenium.support.PageFactory;
 public class SkillraryDemoLoginPage 
 {
 	
-	//declration
+	//declaration
 	@FindBy(id="course")
 	private WebElement course;
 	

@@ -11,8 +11,7 @@ public class PropertyFile
 		Properties p = new Properties();
 		FileInputStream fis=new FileInputStream(AutoConstants.PropertyFilepath);
 		p.load(fis);
-		return p.getProperty(key);
-		
+		return p.getProperty(key);	
 	}
 
 }
